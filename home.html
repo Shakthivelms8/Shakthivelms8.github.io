@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" type="text/css" href="styling/homestyle.css">
+    
+</head>
+<body >
+    <div class="header">
+        <div class="profile-pic" onclick="redirectToCommunity()"></div>
+        <nav class="nav">
+            <a href="#about" onclick="loadContent('about-text', 'textfiles/about.txt')">About</a>
+            <a href="#contact" onclick="loadContent('contact-text', 'textfiles/contact.txt')">Contact</a>
+            <a href="#business" onclick="loadContent('business-text', 'textfiles/business.txt')">Business</a>
+        </nav>
+    </div>
+
+    <div id="search-section">
+        <input type="text" id="search-bar" placeholder="Search..." onkeyup="searchContent()">
+    </div>
+    
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3>World News</h3>
+        </div>
+        <div class="sidebar-content">
+            <p>Loading news...</p>
+        </div>
+    </div>
+    
+    <div class="marquee-container">
+        <div class="marquee-header">Upcoming Events</div>
+        <div class="marquee" id="upcoming-text"></div>
+    </div>
+    
+    <div class="sections">
+        <h2>Summary</h2>
+        <section id="summary" class="section">
+            <p class="terminal-text" id="summary-text"></p>
+        </section>
+    </div>
+    
+    <div class="sections">
+        <h2>About</h2>
+        <section id="about" class="section">
+            <p class="terminal-text" id="about-text"></p>
+        </section>
+    </div>
+    
+    <div class="sections">
+        <h2>Contact</h2>
+        <section id="contact" class="section">
+            <p class="terminal-text" id="contact-text"></p>
+        </section>
+    </div>
+    
+    <div class="sections">
+        <h2>Business</h2>
+        <section id="business" class="section">
+            <p class="terminal-text" id="business-text"></p>
+        </section>
+    </div>
+
+    <div class="footer">
+        Address: <a href="#" id="address-link" target="_blank">Loading...</a> <br>
+        Email: <a href="#" id="email-link" target="_blank">Loading...</a>
+    </div>
+    <script src="scripts/homescript.js"></script>
+</body>
+</html>

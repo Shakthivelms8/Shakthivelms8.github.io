@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styling/register.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Register</h1>
+        <a href="community.html" class="back-link">← Back to Community</a>
+    </div>    
+
+    <div class="form-container">
+        <form id="register-form">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone">
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="or-divider">
+            <p>OR</p>
+        </div>
+
+        <button id="google-signin">Sign in with Google</button>
+    </div>
+
+    <div id="verify-section" style="display: none;">
+        <h2>Email Verification</h2>
+        <p>A verification code has been sent to your email. Please enter the code below:</p>
+        <input type="text" id="verification-code" placeholder="Enter code" required>
+        <button id="verify-button">Verify</button>
+    </div>
+
+    <div id="account-section" style="display: none;">
+        <h2>Create Your Account</h2>
+    
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+    
+        <button id="create-account">Create Account</button>
+    </div>
+    
+    <script src="scripts/register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+    emailjs.init("zBRbT5XIlTvBaeBLA"); // Replace with your EmailJS Public Key
+    </script>
+</body>
+</html>
