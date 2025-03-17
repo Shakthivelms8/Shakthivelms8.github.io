@@ -1,4 +1,38 @@
-This website is dedicated to exploring the latest trends in technology, cybersecurity, and cloud computing.
+About me.........................................
+....................................
+Why is it always challeging so say a few lines about ourselves. okay let me try to put it simple.
+
+Dont hate me for this. I am a 23 year old..."i so dont wanna mention about the looks" 
+
+A Graduate who passed out college in the year 2023.
+
+Intrests.....huh this will take a while........................................................................
+
+umm..It keeps changing the intrest i would prefer was the one which i had in my childhood "Archeology"
+please dont ask any questions on that. the only old antique i have is a chocolate from my 5th grade which i dont dare to open.
+
+Let me try to be professional and speak about my profile. i so badly wanna copy paste my resume or attach a link that opens my resume.
+............................................................................................................................................................................................................................................
 
 
-this is a newly added line
+Sorry am gonna do that!
+
+Passionate and detail-oriented Cloud Computing and Cloud Security professional with a BSc (Hons) in 
+Computer Science, specializing in Cloud Computing and cybersecurity. I have hands-on experience with 
+AWS, Azure, and Linux, focusing on cloud infrastructure security, vulnerability scanning, and incident 
+resolution. Proficient in scripting (Python, Bash) for automating cloud security deployments, 
+monitoring cloud assets, and troubleshooting security issues. Skilled in cloud workload protection, 
+Kubernetes security, and generating compliance reports. With a strong background in cloud security 
+tools, API development, and Infrastructure as Code (IAC), I am committed to enhancing security 
+operations and supporting continuous improvement.
+
+Education
+ B.Sc. (Hons.) in Computer Science
+Specialization: Cloud Computing and Big Data
+Reva University, 2020–2023
+
+Huh..chills! 
+
+That is enough for now.
+
+
